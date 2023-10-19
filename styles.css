@@ -37,9 +37,16 @@ a {
   display: flex;
 }
 
-header a:hover {
-  text-decoration: underline;
+header a {
+  padding: 3px 5px;
 }
+header a:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+
 
 .name-webseite::before {
   content: "";
